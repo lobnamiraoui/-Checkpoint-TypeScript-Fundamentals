@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                        // Transpile vers du JavaScript ES6
+    "module": "commonjs",                   // Utilisation du système de modules CommonJS (pour Node.js)
+    "rootDir": "./",                        // Le dossier racine des fichiers source
+    "outDir": "./dist",                     // Dossier de sortie pour les fichiers compilés
+    "strict": true,                         // Active toutes les vérifications strictes de type
+    "esModuleInterop": true,                // Permet l'importation de modules CommonJS avec `import`
+    "forceConsistentCasingInFileNames": true, // Vérifie la casse des noms de fichiers
+    "skipLibCheck": true                    // Ignore la vérification des fichiers de déclaration `.d.ts`
+  },
+  "include": ["index.ts"],                  // Les fichiers à inclure dans la compilation
+  "exclude": ["node_modules"]               // Les dossiers à exclure
+}
